@@ -1,3 +1,4 @@
+require 'date'
 class App < Sinatra::Base
 
 	get '/' do
@@ -8,7 +9,7 @@ class App < Sinatra::Base
 		erb :hello
 	end
 
-	get '/goodbye' do 
+	get '/goodbye' do
 		erb :goodbye
 	end
 
